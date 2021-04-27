@@ -1,10 +1,11 @@
 package vers
 
-import "fmt"
-
+import (
+	"fmt"
+	"runtime"
+)
 
 func Vers() {
-	fmt.Println("GO is the GO =)")
-
+	fmt.Println(runtime.Version())
 
 }
