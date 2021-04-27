@@ -1,5 +1,10 @@
-package main
+package vers
 
-func main() {
-	$END$
+import "fmt"
+
+
+func vers() {
+	fmt.Println("GO is the GO =)")
+
+
 }
