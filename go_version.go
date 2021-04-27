@@ -3,7 +3,7 @@ package vers
 import "fmt"
 
 
-func vers() {
+func Vers() {
 	fmt.Println("GO is the GO =)")
 
 
