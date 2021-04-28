@@ -13,6 +13,6 @@ func Cpu()  {
 
 	cpu := runtime.NumCPU()
 
-	fmt.Println(cpu)
+	fmt.Println("Number of CPU is ", cpu)
 
 }
