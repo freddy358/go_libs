@@ -11,6 +11,8 @@ func Vers() {
 
 func Cpu()  {
 
-	fmt.Println(runtime.NumCPU())
+	cpu := runtime.NumCPU()
+
+	fmt.Println(cpu)
 
 }
