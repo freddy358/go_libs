@@ -6,7 +6,9 @@ import (
 )
 
 func Vers() {
-	fmt.Println(runtime.Version())
+	version := runtime.Version()
+
+	fmt.Println("Go version is ", version)
 }
 
 func Cpu()  {
